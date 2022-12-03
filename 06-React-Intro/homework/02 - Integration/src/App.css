@@ -1,0 +1,7 @@
+.App {
+   text-align: center;
+   background-color: brown;
+   height: 100vh;
+   background-image: url("rick-morty.png");
+   background-size: 100%;
+}
