@@ -23,14 +23,14 @@
     border: 5px solid rgb(18, 2, 238);
 }
 
-/* .h2{
+.h2{
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(255, 68, 0);
-} */
-/* 
+} 
+
 .img{
     border-radius: 0px 0px 20px 20px;
     box-shadow: 10px;
-} */
+}
