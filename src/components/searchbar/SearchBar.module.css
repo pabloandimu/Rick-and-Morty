@@ -1,0 +1,9 @@
+.searchBar {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    background-color: blue;
+    border-radius: 10px;
+    padding: 1rem;
+}

@@ -1,0 +1,14 @@
+.App {
+   text-align: center;
+   background-color: brown;
+   height: 100%;
+   background-image: url("../src/images/rick-morty.png");
+   background-attachment: fixed;
+   min-height: 100vw;
+}
+
+.subApp{
+   background-color: aquamarine;
+   width: 100vw;
+   height: 100vh;
+}

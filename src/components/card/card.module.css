@@ -1,0 +1,36 @@
+.divPadre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    /* background-image: url('./../img/Cards.png'); */
+
+    /* width: 100%; */
+}
+
+.cardDiv{
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(204, 218, 151, 0.288);
+    backdrop-filter: blur(7px);
+    border-radius: 25px;
+    border: 5px solid rgb(18, 2, 238);
+}
+
+/* .h2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 68, 0);
+} */
+/* 
+.img{
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 10px;
+} */
