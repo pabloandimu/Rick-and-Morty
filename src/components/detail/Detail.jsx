@@ -1,11 +1,12 @@
 // import React from "react";
 import styled from "./Detail.module.css";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 export default function Detail() {
   const { detailId } = useParams();
   //   console.log(detailId)
+  const navigate = useNavigate()
 
   const [character, setCharacter] = useState();
   //console.log(character)
@@ -26,10 +27,16 @@ export default function Detail() {
     return setCharacter({});
   }, [detailId]);
 
+  const handleClick = () => {
+    navigate('/home')
+  }
+
   return (
     <div className={styled.colorText}>
+      
       {character ? (
         <div>
+          <div><button onClick={handleClick}>Volver al Home</button></div>
           <div>
             <h1>Nombre: {character.name}</h1>
             <h5>Status: {character.status}</h5>
